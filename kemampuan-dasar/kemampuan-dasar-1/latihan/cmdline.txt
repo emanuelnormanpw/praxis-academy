@@ -1,0 +1,140 @@
+LATIHAN
+
+MacOS
+
+======
+OPEN : 
+======
+
+Dengan menjalankan perintah open
+- macbookpro$ cd Desktop/
+- macbookpro$ open cmdline.txt 
+
+Maka akan membuka cmdline.txt
+
+========
+MDFIND :
+========
+
+Menjalankan mdfind akan memunculkan semua kata yang ingin kita cari
+- macbookpro$ mdfind -onlyin ~/Desktop test
+
+Maka akan memunculkan path directory yang mengandung nama file 'test'
+
+================
+SCREEN CAPTURE :
+================
+
+Beberapa Dari meted screencapture saya mencoba tengan script 
+- macbookpro$ screencapture -c -W
+
+Dengan script tersebut maka menjalankan screencapture dengan window pilihan menggunakan kursor, setelah klik, maka hasil gambar akan menyimapan di clipboard
+
+======
+SAY :
+======
+
+Dengan script say 
+- macbookpro$ say "testing check 1 2 3"
+
+Maka voice over akan mengatakan seperti text yang kita tuliskan
+
+==========
+DISKUTIL :
+==========
+
+- macbookpro$ diskutil
+
+Maka akan mengeluarkan beberapa list command untuk mengatur disk laptop 
+
+
+======
+BREW :
+======
+
+- macbookpro$ brew 
+
+Dengan brew kita diberikan akses untuk utilitas gratis dan banyak library dari komunitas open source
+
+====
+CD : 
+====
+
+- macbookpro$ cd Desktop/kemampuan-dasar/
+- kemampuan-dasar macbookpro$ 
+
+Script CD berfungsi untuk memindah directory di command line path
+
+====
+LS :
+====
+
+- kemampuan-dasar-1 macbookpro$ ls
+- kasus	latihan
+
+Script ls berfungsi untuk menampilkan file file di dalam folder yang dituju
+
+====
+CP :
+====
+- latihan macbookpro$ ls
+- cmdline.txt	shellscripts
+- latihan macbookpro$ cp cmdline.txt cmdcopy.txt
+- latihan macbookpro$ ls
+- cmdcopy.txt	cmdline.txt	shellscripts
+
+script cp berfungsi untuk copy file dan dapat langsung rename file
+
+=======
+MKDIR :
+=======
+- latihan macbookpro$ mkdir coba
+- latihan macbookpro$ ls
+- cmdcopy.txt	 cmdline.txt	coba		shellscripts
+
+Mkdir berfungsi untuk membuat folder di dalam path yang dituju
+
+=======
+RMDIR :
+=======
+- latihan macbookpro$ rmdir coba/
+- latihan macbookpro$ ls
+- cmdcopy.txt	cmdline.txt	shellscripts
+
+Rmdir akan menghapus folder yang kosong
+
+====
+SUDO
+====
+Sudo merupakan perintah untuk eksekusi dengan superuser privileges
+
+====
+TOP
+====
+- macbookpro$ top
+
+Top berfungsi untuk menampilkan proses yang berjalan di komputer
+
+=====
+CLEAR
+=====
+macbookpro$ clear
+
+Clear berfungsi untuk menghapus semua command yang Sudan user jalankan sebelumnya, tampilan akan bearish
+
+====
+EXIT
+====
+
+- macbookpro$ exit
+
+logout
+Saving session...
+...copying shared history...
+...saving history...truncating history files...
+...completed.
+Deleting expired sessions...62 completed.
+
+[Process completed]
+
+Berfungsi untuk keluar dari terminal session
