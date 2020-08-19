@@ -30,46 +30,25 @@ if (x > 0 && y > 0 && z > 0) {
 }
 
 console.log("===Sort three numbers===");
-var x = 0;
-var y = -1;
-var z = 4;
-if (x > y && x > z) {
-    if (y > z) {
-        console.log(x + ", " + y + ", " + z);
-    } else {
-        console.log(x + ", " + z + ", " + y);
-    }
-} else if (y > x && y > z) {
-    if (x > z) {
-        console.log(y + ", " + x + ", " + z);
-    } else {
-        console.log(y + ", " + z + ", " + x);
-    }
-} else if (z > x && z > y) {
-    if (x > y) {
-        console.log(z + ", " + x + ", " + y);
-    } else {
-        console.log(z + ", " + y + ", " + x);
-    }
+var bilangan = [-4, 3, 2];
+bilangan.sort(function (a, b) {
+    return a - b
+});
+for (var i = 0; i < bilangan.length; i++) {
+    console.log(bilangan[i]);
 }
+
+
+
 
 console.log("===Find the Five Biggest Number===");
 
-a = -5;
-b = -2;
-c = -6;
-d = 0;
-f = -1;
-if (a > b && a > c && a > d && a > f) {
-    console.log(a);
-} else if (b > a && b > c && b > d && b > f) {
-    console.log(b);
-} else if (c > a && c > b && c > d && c > f) {
-    console.log(c);
-} else if (d > a && d > c && d > b && d > f) {
-    console.log(d);
-} else {
-    console.log(f);
+var five = [-5, -2, -6, 0, 2];
+five.sort(function (a, b) {
+    return b - a
+});
+for (var i = 0; i < five.length; i++) {
+    console.log(five[i]);
 }
 
 console.log("===Odd Even Number===");
