@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Converter Suhu</h1>
+    <hr>
+    <p>Masukkan Suhu :</p>
+    <input type="text" id="valSatu">
+    
+    </br>
+    </br>
+    <select name="pilVal" id="pilVal">
+        <option value="CtoF">C to F</option>
+        <option value="FtoC">F to C</option>
+    </select>
+
+    <button onclick="convertCal()">Convert</button>
+    <p>Hasil : </p>
+   
+    <h1 id="hasilConvert">0</h1>
+
+    <hr>
+    <h1>Lifetime Supply Calculator</h1>
+    <p>Usia :</p>
+    <input type="text" id="valLifeSatu">
+</br>
+    <p>Jumlah persediaan per hari : </p>
+    <input type="text" id="valLifeDua">
+</br>
+    <button onclick="calLifetime()">Hitung Persediaan</button>
+
+    <h3 id="hasilCalLifetime"></h3>
+    <script src="main.js"></script>
+</body>
+</html>
