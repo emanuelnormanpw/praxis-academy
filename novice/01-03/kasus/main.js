@@ -1,15 +1,16 @@
 function convertCal(){
     var valSatu = document.getElementById("valSatu").value;
     var jenisSatu = document.getElementById("pilVal").value;
+
     var result="";
     let status="";
 
     if (jenisSatu=="CtoF"){
-        result = ((parseInt(valSatu)*1.8)+32);
+        result = ((parseFloat(valSatu)*1.8)+32);
         result = result.toFixed(2);
         status = "Celcius";
     }else{
-        result = ((parseInt(valSatu)-32)*0.56);
+        result = ((parseFloat(valSatu)-32)*0.56);
         parseInt(result);
         result = result.toFixed(2);
         status = "Farenheit";
