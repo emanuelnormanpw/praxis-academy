@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minggu 01 Hari 03</title>
+</head>
+<body>
+    <h1>POINT 1</h1>
+    <span>Masukkan Nama : </span><input type="text" id="valInput" value="">
+    <button id="btn" onclick="callName()">SUBMIT</button>
+    <p>Nama anda, <span id="hasil"></span></p>
+    <script src="main.js"></script>
+
+    <h1>POINT 2</h1>
+    <h3>Mau tumbas mobil? Pilih dulu :</h3>
+    <hr>
+    <span>Pilih :</span>
+    <select name="mobil" id="mobil">
+        <option value="Honda">Honda</option>
+        <option value="Astrea">Astrea</option>
+        <option value="Supra X">Supra X</option>
+    </select>
+
+    <span>Kode Promo : </span><input type="text" id="valInputDua">
+    <button id="btn-dua" onclick="tumbasMobil()">BELI</button>
+    <p id="hasilDua"></p>
+    <hr>
+
+    <h1>POINT 3</h1>
+    <h3>Upgrade Mobil?</h3>
+    <hr>
+    <span>Tipe Mobil Anda : </span> 
+    <select name="upMobil" id="upMobil">
+        <option value="Honda">Honda</option>
+        <option value="Astrea">Astrea</option>
+        <option value="Supra X">Supra X</option>
+    </select>
+
+    <p>Bagian yang ingin di Upgrade :</p>
+    <select name="bgMobil" id="bgMobil">
+        <option value="Knalpot">Knalpot</option>
+        <option value="Mesin">Mesin</option>
+        <option value="Interior">Interior</option>
+    </select>
+
+    <button id="btn-tiga" onclick="upgradeMobil()">UPGRADE</button>
+    <p id="hasilTiga"></p>
+    <hr>
+    <h1>POINT 4</h1>
+    <h3>Booking Service: </h3>
+    
+    <p>Klik tombol dibawah untuk dikirim</p>
+    <div>
+        <p>Keluhan :</p>
+    <p>Isian 1</p>
+    <input type="text" id="valInputTiga01">
+    <p>isian 2</p>
+    <input type="text" id="valInputTiga02">
+    </br>
+    <p>Klik tombol dibawah untuk dikirim</p>
+    <button id="btn-empat" onclick="callBack()">KIRIM</button>
+
+    </div>
+    <div id="hasilEmpat">
+
+    </div>
+
+    <h1>POINT 5</h1>
+    <h3>Jumlah Beli</h3>
+    <hr>
+    <p>Ingin beli berapa :</p>
+     
+    <p id="hasilLima"></p> 
+    <button id="btn-lima" onclick="add()">+</button>
+    <button id="btn-lima" onclick="min()">-</button>  
+</body>
+</html>
