@@ -8,4 +8,3 @@
 
 [Kemampuan dasar 02 - collaboration](https://github.com/axcheroncode/testing) 
 COBA
-TESTING
